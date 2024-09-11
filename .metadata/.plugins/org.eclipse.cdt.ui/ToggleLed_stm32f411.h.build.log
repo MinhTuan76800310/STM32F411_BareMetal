@@ -1,0 +1,20 @@
+15:37:46 **** Build of configuration Debug for project ToggleLed_stm32f411.h ****
+make -j12 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f411vetx.d" -MT"Startup/startup_stm32f411vetx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f411vetx.o" "../Startup/startup_stm32f411vetx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411xE -c -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411xE -c -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411xE -c -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "ToggleLed_stm32f411.h.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\New folder\Tuan\Study\IOT\stm32\Programs\target\ToggleLed_stm32f411.h\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ToggleLed_stm32f411.h.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ToggleLed_stm32f411.h.elf
+ 
+arm-none-eabi-size  ToggleLed_stm32f411.h.elf 
+arm-none-eabi-objdump -h -S ToggleLed_stm32f411.h.elf  > "ToggleLed_stm32f411.h.list"
+   text	   data	    bss	    dec	    hex	filename
+    748	      0	   1568	   2316	    90c	ToggleLed_stm32f411.h.elf
+Finished building: default.size.stdout
+ 
+Finished building: ToggleLed_stm32f411.h.list
+ 
+
+15:37:48 Build Finished. 0 errors, 0 warnings. (took 1s.689ms)
+
