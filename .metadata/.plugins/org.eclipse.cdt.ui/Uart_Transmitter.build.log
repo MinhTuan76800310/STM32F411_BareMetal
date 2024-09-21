@@ -1,0 +1,17 @@
+17:51:51 **** Incremental Build of configuration Debug for project Uart_Transmitter ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411xE -c -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Include" -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Uart_Transmitter.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\New folder\Tuan\Study\IOT\stm32\Programs\target\Uart_Transmitter\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Uart_Transmitter.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Uart_Transmitter.elf
+ 
+arm-none-eabi-size  Uart_Transmitter.elf 
+arm-none-eabi-objdump -h -S Uart_Transmitter.elf  > "Uart_Transmitter.list"
+   text	   data	    bss	    dec	    hex	filename
+    944	      0	   1568	   2512	    9d0	Uart_Transmitter.elf
+Finished building: default.size.stdout
+ 
+Finished building: Uart_Transmitter.list
+ 
+
+17:51:52 Build Finished. 0 errors, 0 warnings. (took 881ms)
+

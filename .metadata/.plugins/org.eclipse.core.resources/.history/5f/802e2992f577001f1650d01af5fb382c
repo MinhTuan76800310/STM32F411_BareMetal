@@ -1,0 +1,13 @@
+/* Turn on LED 5 (PD14) */
+#include <stdint.h>
+#include "stm32f4xx.h""
+
+#define GPIOAEN
+#define USART2EN
+
+static void
+
+int main(void)
+{
+
+}

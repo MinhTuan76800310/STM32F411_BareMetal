@@ -1,23 +1,14 @@
-15:37:46 **** Clean-only build of configuration Debug for project ToggleLed_stm32f411.h ****
-make -j12 clean 
-rm -rf ./Startup/startup_stm32f411vetx.d ./Startup/startup_stm32f411vetx.o
-rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
-rm -rf default.size.stdout targetproject2.elf targetproject2.list targetproject2.map
- 
-15:37:46 **** Build of configuration Debug for project ToggleLed_stm32f411.h ****
+17:51:51 **** Incremental Build of configuration Debug for project Uart_Transmitter ****
 make -j12 all 
-arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f411vetx.d" -MT"Startup/startup_stm32f411vetx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f411vetx.o" "../Startup/startup_stm32f411vetx.s"
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411xE -c -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411xE -c -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
-arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411xE -c -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
-arm-none-eabi-gcc -o "ToggleLed_stm32f411.h.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\New folder\Tuan\Study\IOT\stm32\Programs\target\ToggleLed_stm32f411.h\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ToggleLed_stm32f411.h.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: ToggleLed_stm32f411.h.elf
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411xE -c -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/New folder/Tuan/Study/IOT/Documentations/STM32F411/CODE_UDEMY/STM32F4-BareMetal_Workspace/F4_chip_headers/CMSIS/Include" -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Uart_Transmitter.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\New folder\Tuan\Study\IOT\stm32\Programs\target\Uart_Transmitter\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Uart_Transmitter.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Uart_Transmitter.elf
  
-arm-none-eabi-size  ToggleLed_stm32f411.h.elf 
-arm-none-eabi-objdump -h -S ToggleLed_stm32f411.h.elf  > "ToggleLed_stm32f411.h.list"
+arm-none-eabi-size  Uart_Transmitter.elf 
+arm-none-eabi-objdump -h -S Uart_Transmitter.elf  > "Uart_Transmitter.list"
    text	   data	    bss	    dec	    hex	filename
-    748	      0	   1568	   2316	    90c	ToggleLed_stm32f411.h.elf
+    944	      0	   1568	   2512	    9d0	Uart_Transmitter.elf
 Finished building: default.size.stdout
  
-Finished building: ToggleLed_stm32f411.h.list
+Finished building: Uart_Transmitter.list
  

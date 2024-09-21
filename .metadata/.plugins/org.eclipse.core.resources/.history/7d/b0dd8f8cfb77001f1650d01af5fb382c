@@ -1,0 +1,28 @@
+/* Turn on LED 5 (PD14) */
+#include <stdint.h>
+#include "stm32f4xx.h""
+
+#define GPIOAEN 		(1U<<0)
+#define USART2EN
+
+static void uart2_tx_init(void)
+{
+	// Enable clock access for GPIOA
+	RCC->AHB1ENR |= GPIOAEN;
+	// Set pin PA2 is alternate function mode
+	GPIOA->MODER &= ~(1U<<4);
+	GPIOA->MODER |= (1U<<5);
+	// Set alternate type of PA2 is USART2 (AF07)
+	GPIOA->AFR[0] |= (1U<<8);
+	GPIOA->AFR[0] |= (1U<<9);
+	GPIOA->AFR[0] |= (1U<<10);
+	GPIOA->AFR[0] &= ~(1U<<11);
+
+	// Enable clock access for USART2
+	RCC->APB1 |= USART2EN;
+}
+
+int main(void)
+{
+
+}
