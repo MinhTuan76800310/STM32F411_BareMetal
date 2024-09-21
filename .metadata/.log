@@ -340,3 +340,21 @@ java.lang.Exception: The project description file (.project) for 'UartTransmitte
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-09-21 14:51:55.462
 !MESSAGE Indexed 'Uart_Transmitter' (3 sources, 0 headers) in 0.041 sec: 66 declarations; 80 references; 11 unresolved inclusions; 0 syntax errors; 49 unresolved names (25%)
+!SESSION 2024-09-21 22:04:09.064 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-09-21 22:04:33.233
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-09-21 22:04:33.241
+!MESSAGE Log4j2 initialized with config file D:\New folder\Tuan\Study\IOT\stm32\Programs\target\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-09-21 22:04:42.975
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-09-21 22:44:22.873
+!MESSAGE Indexed 'Uart_Receiver' (5 sources, 65 headers) in 1.32 sec: 3,218 declarations; 5,273 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.024%)

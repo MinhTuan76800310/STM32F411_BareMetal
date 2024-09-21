@@ -1,0 +1,14 @@
+#include "uart.h"
+#include "stm32f4xx.h"
+
+// Enable clock access for GPIOA
+RCC->AHB1ENR |= GPIOAEN;
+
+int main(void)
+{
+	uart2_tx_init();
+	while(1)
+	{
+		printf("Tuan dz vcl");
+	}
+}

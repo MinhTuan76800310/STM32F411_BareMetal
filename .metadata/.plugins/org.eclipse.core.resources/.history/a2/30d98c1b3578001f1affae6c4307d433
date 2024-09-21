@@ -1,0 +1,28 @@
+
+#include "stm32f4xx.h"
+
+char key;
+
+int main(void)
+{
+	/* Turn on LED 5 (PD14) */
+	// Enable clock access for GPIOD
+	RCC->AHB1ENR |= GPIODEN;
+	GPIOD->MODER |= (1U<<10);
+	GPIOD->MODER &= ~(1U<<11);
+
+	uart2_rxtx_init();
+	while(1)
+	{
+		key = uart_read();
+		if (key == '1')
+		{
+			// Turn on LED
+			GPIOD->ODR |= LED_PIN;
+		}
+		else
+		{
+			GPIOD->ODR &= ~LED_PIN;
+		}
+	}
+}
