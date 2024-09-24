@@ -24,7 +24,7 @@ This is ideal for learning the fundamentals of embedded systems and understandin
   - Blinking an LED using GPIO
   - UART communication
   - ADC configuration
-
+  - Systick
 ## Requirements
 
 To compile and run the code in this repository, you'll need the following tools:
