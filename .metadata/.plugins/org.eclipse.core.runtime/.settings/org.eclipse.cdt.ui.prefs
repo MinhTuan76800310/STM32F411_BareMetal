@@ -1,4 +1,8 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
+=======
+org.eclipse.cdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+>>>>>>> 846749a (stm32f103 interrupt)
 spelling_locale=en_GB
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true

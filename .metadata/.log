@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 !SESSION 2024-08-24 16:00:49.824 -----------------------------------------------
+=======
+!SESSION 2024-10-21 12:21:26.214 -----------------------------------------------
+>>>>>>> 846749a (stm32f103 interrupt)
 eclipse.buildId=Version 1.16.0
 java.version=17.0.11
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+<<<<<<< HEAD
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\New folder\Tuan\Study\IOT\stm32\Programs\target
 
 !ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-24 16:01:11.070
@@ -20,12 +25,184 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\New folder\Tu
 !ENTRY org.eclipse.cdt.core 1 0 2024-08-24 16:56:53.122
 !MESSAGE Indexed 'targetproject1' (3 sources, 53 headers) in 0.259 sec: 1,950 declarations; 2,835 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
 !SESSION 2024-08-25 16:31:34.183 -----------------------------------------------
+=======
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\New folder\Tuan\Study\IOT\stm32\F1_
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-21 12:21:33.875
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-21 12:21:33.882
+!MESSAGE Log4j2 initialized with config file D:\New folder\Tuan\Study\IOT\stm32\F1_\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-21 12:21:43.298
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-21 12:23:33.785
+!MESSAGE Indexed 'InputCapture' (3 sources, 53 headers) in 1.23 sec: 1,950 declarations; 2,835 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.embedcdt.managedbuild.cross.riscv.core 1 1 2024-10-21 12:29:54.815
+!MESSAGE File .repos.xml does not exist, using defaults.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2024-10-21 12:43:45.470
+!MESSAGE Cannot add P/InputCapture to the list of segments in Inc::P/InputCapture:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add P/InputCapture to the list of segments in Inc::P/InputCapture:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:540)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:603)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:331)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1775)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:577)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1713)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2513)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.frameChanged(TreeViewerFrameSource.java:69)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.frameChanged(CommonNavigatorFrameSource.java:55)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.handlePropertyChange(TreeViewerFrameSource.java:168)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.firePropertyChange(FrameList.java:93)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.setCurrent(FrameList.java:208)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.gotoFrame(FrameList.java:165)
+	at org.eclipse.ui.internal.navigator.framelist.GoIntoAction.run(GoIntoAction.java:54)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2024-10-21 12:43:45.482
+!MESSAGE Cannot add P/InputCapture to the list of segments in Inc::P/InputCapture::Src:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add P/InputCapture to the list of segments in Inc::P/InputCapture::Src:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:540)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:603)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:331)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1775)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:577)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1713)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2513)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.frameChanged(TreeViewerFrameSource.java:69)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.frameChanged(CommonNavigatorFrameSource.java:55)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.handlePropertyChange(TreeViewerFrameSource.java:168)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.firePropertyChange(FrameList.java:93)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.setCurrent(FrameList.java:208)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.gotoFrame(FrameList.java:165)
+	at org.eclipse.ui.internal.navigator.framelist.GoIntoAction.run(GoIntoAction.java:54)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2024-10-21 12:43:45.483
+!MESSAGE Cannot add P/InputCapture to the list of segments in Inc::P/InputCapture:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add P/InputCapture to the list of segments in Inc::P/InputCapture:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:540)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:603)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:331)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1775)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:577)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1713)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1715)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2513)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.frameChanged(TreeViewerFrameSource.java:69)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.frameChanged(CommonNavigatorFrameSource.java:55)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.handlePropertyChange(TreeViewerFrameSource.java:168)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.firePropertyChange(FrameList.java:93)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.setCurrent(FrameList.java:208)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.gotoFrame(FrameList.java:165)
+	at org.eclipse.ui.internal.navigator.framelist.GoIntoAction.run(GoIntoAction.java:54)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-21 15:44:46.539
+!MESSAGE Indexed 'InputInterrupt' (4 sources, 60 headers) in 0.513 sec: 2,539 declarations; 3,592 references; 5 unresolved inclusions; 23 syntax errors; 482 unresolved names (7.3%)
+!SESSION 2024-10-22 21:20:10.489 -----------------------------------------------
+>>>>>>> 846749a (stm32f103 interrupt)
 eclipse.buildId=Version 1.16.0
 java.version=17.0.11
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
 Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.resources 2 10035 2024-08-25 16:31:54.903
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
 
@@ -38,12 +215,30 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-25 16:32:23.223
 !MESSAGE Started RMI Server, listening on port 41337
 !SESSION 2024-08-26 16:19:53.506 -----------------------------------------------
+=======
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-22 21:20:20.791
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-22 21:20:39.447
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-22 21:20:39.455
+!MESSAGE Log4j2 initialized with config file D:\New folder\Tuan\Study\IOT\stm32\F1_\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-22 21:20:49.984
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-22 21:22:38.615
+!MESSAGE Indexed 'CAN_1' (17 sources, 78 headers) in 4.17 sec: 3,643 declarations; 13,251 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+!SESSION 2024-10-24 20:51:23.821 -----------------------------------------------
+>>>>>>> 846749a (stm32f103 interrupt)
 eclipse.buildId=Version 1.16.0
 java.version=17.0.11
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
 Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.resources 2 10035 2024-08-26 16:20:13.445
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
 
@@ -56,12 +251,33 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-26 16:20:43.748
 !MESSAGE Started RMI Server, listening on port 41337
 !SESSION 2024-08-29 11:52:39.100 -----------------------------------------------
+=======
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-24 21:30:27.707
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-24 21:30:49.240
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-24 21:30:49.249
+!MESSAGE Log4j2 initialized with config file D:\New folder\Tuan\Study\IOT\stm32\F1_\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-24 21:31:05.917
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-25 00:36:40.708
+!MESSAGE Indexed 'Uart_Tx_F103' (5 sources, 63 headers) in 1.07 sec: 2,671 declarations; 4,440 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.028%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-25 00:37:28.599
+!MESSAGE Indexed 'Uart_Rx_F104' (5 sources, 64 headers) in 0.459 sec: 2,671 declarations; 4,441 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.028%)
+!SESSION 2024-10-25 08:02:42.307 -----------------------------------------------
+>>>>>>> 846749a (stm32f103 interrupt)
 eclipse.buildId=Version 1.16.0
 java.version=17.0.11
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
 Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
+<<<<<<< HEAD
 !ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-29 11:59:06.693
 !MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
 
@@ -95,12 +311,42 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 !ENTRY org.eclipse.cdt.core 1 0 2024-08-31 15:38:13.916
 !MESSAGE Indexed 'targetproject2' (3 sources, 0 headers) in 0.139 sec: 66 declarations; 80 references; 11 unresolved inclusions; 0 syntax errors; 49 unresolved names (25%)
 !SESSION 2024-09-01 15:11:38.500 -----------------------------------------------
+=======
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-25 08:02:48.783
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-25 08:03:05.584
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-25 08:03:05.593
+!MESSAGE Log4j2 initialized with config file D:\New folder\Tuan\Study\IOT\stm32\F1_\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-25 08:03:19.171
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-25 09:00:47.217
+!MESSAGE Indexed 'Uart_RRx_F103' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-25 09:01:08.719
+!MESSAGE Indexed 'Uart_Tx_F103' (6 sources, 64 headers) in 0.919 sec: 2,693 declarations; 4,543 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.028%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-25 10:56:52.576
+!MESSAGE Indexed 'Uart_Rx_F103' (5 sources, 64 headers) in 0.759 sec: 2,671 declarations; 4,441 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.028%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-25 10:57:20.562
+!MESSAGE Indexed 'Uart_Rx_F103' (5 sources, 64 headers) in 0.667 sec: 2,671 declarations; 4,441 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.028%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-25 10:58:45.334
+!MESSAGE Indexed 'Uart_Rx_F104' (7 sources, 67 headers) in 0.597 sec: 2,847 declarations; 4,739 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.026%)
+!SESSION 2024-10-26 20:47:17.970 -----------------------------------------------
+>>>>>>> 846749a (stm32f103 interrupt)
 eclipse.buildId=Version 1.16.0
 java.version=17.0.11
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
 Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
+<<<<<<< HEAD
 !ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-09-01 15:12:51.348
 !MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
 
@@ -358,3 +604,39 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-09-21 22:44:22.873
 !MESSAGE Indexed 'Uart_Receiver' (5 sources, 65 headers) in 1.32 sec: 3,218 declarations; 5,273 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.024%)
+=======
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-26 20:47:44.249
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-26 20:47:44.258
+!MESSAGE Log4j2 initialized with config file D:\New folder\Tuan\Study\IOT\stm32\F1_\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-26 20:47:57.287
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2024-10-26 20:48:34.414
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1562)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Resource already exists on disk: 'D:\New folder\Tuan\Study\IOT\stm32\F1_\Uart_Rx_F103'.
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2024-10-26 20:48:34.415
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2024-10-26 20:48:34.415
+!MESSAGE Resource already exists on disk: 'D:\New folder\Tuan\Study\IOT\stm32\F1_\Uart_Rx_F103'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-26 20:49:06.131
+!MESSAGE Indexed 'Uart_Rx_Interrupt_F103' (8 sources, 67 headers) in 1.88 sec: 2,733 declarations; 4,029 references; 4 unresolved inclusions; 23 syntax errors; 482 unresolved names (6.7%)
+>>>>>>> 846749a (stm32f103 interrupt)

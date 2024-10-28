@@ -1,0 +1,20 @@
+11:10:33 **** Incremental Build of configuration Debug for project Uart_Rx_F104 ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -I"C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include" -I"C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/uart.d" -MT"Src/uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/uart.o"
+arm-none-eabi-gcc -o "Uart_Rx_F104.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\New folder\Tuan\Study\IOT\stm32\F1_\Uart_Rx_F104\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Uart_Rx_F104.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Uart_Rx_F104.elf
+ 
+arm-none-eabi-size  Uart_Rx_F104.elf 
+arm-none-eabi-objdump -h -S Uart_Rx_F104.elf  > "Uart_Rx_F104.list"
+arm-none-eabi-objcopy  -O binary Uart_Rx_F104.elf  "Uart_Rx_F104.bin"
+   text	   data	    bss	    dec	    hex	filename
+   4852	     92	   1900	   6844	   1abc	Uart_Rx_F104.elf
+Finished building: default.size.stdout
+ 
+Finished building: Uart_Rx_F104.bin
+Finished building: Uart_Rx_F104.list
+ 
+ 
+
+11:10:33 Build Finished. 0 errors, 0 warnings. (took 945ms)
+

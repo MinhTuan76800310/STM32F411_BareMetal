@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<item key="LastUsedHeaderTemplate" value="Default C header template"/>
 	<item key="LastUsedSourceTemplate" value="Default C source template"/>
+=======
+>>>>>>> 846749a (stm32f103 interrupt)
 	<section name="completion_proposal_size">
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
 	</section>
+<<<<<<< HEAD
+=======
+	<section name="CResourceRenameRefactoringInputPage">
+		<item key="updateReferences" value="true"/>
+	</section>
+>>>>>>> 846749a (stm32f103 interrupt)
 </section>

@@ -2,7 +2,11 @@
 <Configuration status="info">
     <ThresholdFilter level="INFO"/>
     <Appenders>
+<<<<<<< HEAD
         <RollingFile name="DEBUGFILE" fileName="D:/New folder/Tuan/Study/IOT/stm32/Programs/target/.metadata/.ide.log" filePattern="D:/New folder/Tuan/Study/IOT/stm32/Programs/target/.metadata/.ide.log-%d{yyyy-MM-dd}.log">
+=======
+        <RollingFile name="DEBUGFILE" fileName="D:/New folder/Tuan/Study/IOT/stm32/F1_/.metadata/.ide.log" filePattern="D:/New folder/Tuan/Study/IOT/stm32/F1_/.metadata/.ide.log-%d{yyyy-MM-dd}.log">
+>>>>>>> 846749a (stm32f103 interrupt)
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} [%p] %c{1}:%L - %m%n" />
             <Policies>
                 <TimeBasedTriggeringPolicy interval="1" modulate="true" />

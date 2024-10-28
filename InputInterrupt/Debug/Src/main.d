@@ -1,0 +1,19 @@
+Src/main.o: ../Src/main.c ../Inc/uart.h \
+ C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
+ C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h \
+ C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include/core_cm3.h \
+ C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include/cmsis_version.h \
+ C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include/cmsis_compiler.h \
+ C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include/cmsis_gcc.h \
+ C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h \
+ ../Inc/tim.h ../Inc/exti.h
+../Inc/uart.h:
+C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:
+C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:
+C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include/core_cm3.h:
+C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include/cmsis_version.h:
+C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include/cmsis_compiler.h:
+C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include/cmsis_gcc.h:
+C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h:
+../Inc/tim.h:
+../Inc/exti.h:

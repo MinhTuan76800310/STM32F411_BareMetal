@@ -1,0 +1,20 @@
+10:33:35 **** Incremental Build of configuration Debug for project InputInterrupt ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -I"C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include" -I"C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "InputInterrupt.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\New folder\Tuan\Study\IOT\stm32\F1_\InputInterrupt\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InputInterrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InputInterrupt.elf
+ 
+arm-none-eabi-size  InputInterrupt.elf 
+arm-none-eabi-objdump -h -S InputInterrupt.elf  > "InputInterrupt.list"
+arm-none-eabi-objcopy  -O binary InputInterrupt.elf  "InputInterrupt.bin"
+   text	   data	    bss	    dec	    hex	filename
+   3668	     92	   1900	   5660	   161c	InputInterrupt.elf
+Finished building: default.size.stdout
+ 
+Finished building: InputInterrupt.bin
+Finished building: InputInterrupt.list
+ 
+ 
+
+10:33:36 Build Finished. 0 errors, 0 warnings. (took 711ms)
+

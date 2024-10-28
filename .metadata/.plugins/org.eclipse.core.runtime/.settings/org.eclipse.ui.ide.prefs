@@ -1,4 +1,8 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 platformState=1724482814914
+=======
+platformState=1724482814963
+>>>>>>> 846749a (stm32f103 interrupt)
 quickStart=false
 tipsAndTricks=true

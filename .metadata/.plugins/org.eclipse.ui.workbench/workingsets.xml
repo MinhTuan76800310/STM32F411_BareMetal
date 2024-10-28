@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<<<<<<< HEAD
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1724490071034_0" label="Window Working Set" name="Aggregate for window 1724490071033"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1724578339531_1" label="Window Working Set" name="Aggregate for window 1724578339531"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1724664038384_2" label="Window Working Set" name="Aggregate for window 1724664038384"/>
+=======
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1729488093851_0" label="Window Working Set" name="Aggregate for window 1729488093850"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1729606845317_1" label="Window Working Set" name="Aggregate for window 1729606845315"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1729780257951_2" label="Window Working Set" name="Aggregate for window 1729780257951"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1729818190439_3" label="Window Working Set" name="Aggregate for window 1729818190439"/>
+>>>>>>> 846749a (stm32f103 interrupt)
 </workingSetManager>

@@ -1,0 +1,20 @@
+09:02:13 **** Build of configuration Debug for project InputCapture ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -I"C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include" -I"C:/Users/dogla/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/tim.d" -MT"Src/tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/tim.o"
+arm-none-eabi-gcc -o "InputCapture.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\New folder\Tuan\Study\IOT\stm32\F1_\InputCapture\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="InputCapture.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: InputCapture.elf
+ 
+arm-none-eabi-size  InputCapture.elf 
+arm-none-eabi-objdump -h -S InputCapture.elf  > "InputCapture.list"
+   text	   data	    bss	    dec	    hex	filename
+    572	      0	   1568	   2140	    85c	InputCapture.elf
+arm-none-eabi-objcopy  -O binary InputCapture.elf  "InputCapture.bin"
+Finished building: default.size.stdout
+ 
+Finished building: InputCapture.bin
+ 
+Finished building: InputCapture.list
+ 
+
+09:02:14 Build Finished. 0 errors, 0 warnings. (took 550ms)
+
